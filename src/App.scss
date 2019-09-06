@@ -1,0 +1,55 @@
+// some vars
+$mainLight: #F3F3F3;
+$mainDark: #262626;
+
+// style nav 
+
+.uk-navbar-container {
+    background: $mainDark !important;
+    a {
+        color: $mainLight !important;
+    }
+}
+
+// style create-todo component
+
+.create-todo,
+.edit-todo,
+.todos-list {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.uk-input {
+    height: 65px;
+    border: none;
+    outline: none;
+    background: #F8F8F8;
+    color: $mainDark;
+    font-size: 16px;
+    &:focus {
+        background: #F8F8F8;
+        color: $mainDark;
+    }
+}
+
+label {
+    &:not(:first-child) {
+        margin-left: 10px !important;
+    }
+    input {
+        margin-right: 10px !important;
+    }
+}
+
+.uk-checkbox:checked, .uk-checkbox:indeterminate, .uk-radio:checked {
+    background-color: $mainDark !important;
+}
+
+.uk-button-primary {
+    background: $mainDark;
+    color: $mainLight;
+    &:hover, &:active, &:focus {
+        background: $mainDark;
+    }
+}

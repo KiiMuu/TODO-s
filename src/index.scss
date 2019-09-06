@@ -1,0 +1,17 @@
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.completed {
+    text-decoration: line-through;
+}
